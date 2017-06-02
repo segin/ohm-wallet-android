@@ -44,7 +44,7 @@ public class Configuration {
     private final SharedPreferences prefs;
     private final Resources res;
 
-    public static final String PREFS_KEY_BTC_PRECISION = "btc_precision";
+    public static final String PREFS_KEY_BTC_PRECISION = "ohm_precision";
     public static final String PREFS_KEY_OWN_NAME = "own_name";
     public static final String PREFS_KEY_SEND_COINS_AUTOCLOSE = "send_coins_autoclose";
     public static final String PREFS_KEY_CONNECTIVITY_NOTIFICATION = "connectivity_notification";

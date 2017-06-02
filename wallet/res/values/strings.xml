@@ -2,7 +2,7 @@
 <resources>
 
     <string name="toast_wallet_reset">Your wallet was reset!\nIt will take some time to recover.</string>
-    <string name="wallet_disclaimer_fragment_remind_safety">Use at your own risk. Read the &lt;u&gt;safety notes&lt;/u&gt;.</string>
+    <string name="wallet_disclaimer_fragment_remind_safety">Use at your own risk. Read the &lt;u &gt;safety notes&lt;/u&gt;.</string>
     <string name="wallet_disclaimer_fragment_remind_backup">You need to &lt;u&gt;back up your wallet&lt;/u&gt;!</string>
     <string name="blockchain_state_progress_hours">%1$s, %2$d hours behind</string>
     <string name="blockchain_state_progress_days">%1$s, %2$d days behind</string>
@@ -25,12 +25,12 @@
     <string name="exchange_rates_fragment_balance">balance</string>
     <string name="exchange_rates_fragment_source">Price from %s</string>
     <string name="exchange_rates_options_search">Search exchange rate</string>
-    <string name="wallet_transactions_fragment_empty_text_received">No Bitcoins received so far.</string>
-    <string name="wallet_transactions_fragment_empty_text_sent">No Bitcoins sent so far.</string>
-    <string name="wallet_transactions_fragment_empty_text_howto">How to get Bitcoins?\n\nTrade for traditional money,\nsell goods or services or\nearn by working.</string>
+    <string name="wallet_transactions_fragment_empty_text_received">No Ohm received so far.</string>
+    <string name="wallet_transactions_fragment_empty_text_sent">No Ohm sent so far.</string>
+    <string name="wallet_transactions_fragment_empty_text_howto">How to get Ohm?\n\nTrade for traditional money,\nsell goods or services or\nearn by working.</string>
     <string name="wallet_transactions_row_warning_backup">Congratulations, you received your first payment! Have you already &lt;u&gt;backed up your wallet&lt;/u&gt;, to protect against loss?</string>
     <string name="wallet_transactions_row_warning_storage_encryption">Hint: to increase the safety of your wallet, you can &lt;u&gt;encrypt your device&lt;/u&gt;. This also protects data of other apps.</string>
-    <string name="wallet_transactions_row_warning_chain_forking">The Bitcoin network is undergoing maintenance. You\'re advised to not send or receive any coins until maintenance is finished. &lt;u&gt;More information.&lt;/u&gt;</string>
+    <string name="wallet_transactions_row_warning_chain_forking">The Ohm network is undergoing maintenance. You\'re advised to not send or receive any coins until maintenance is finished. &lt;u&gt;More information.&lt;/u&gt;</string>
     <string name="wallet_transactions_fragment_coinbase">mined</string>
     <string name="wallet_transactions_fragment_internal">internal</string>
     <string name="wallet_transactions_options_filter">Filter</string>
@@ -43,9 +43,9 @@
     <string name="wallet_options_safety">Safety notes</string>
     <string name="wallet_options_technical_notes_title">Technical notes</string>
     <string name="wallet_options_donate">Tip / donate</string>
-    <string name="wallet_donate_address_label">Donation for Bitcoin Wallet</string>
+    <string name="wallet_donate_address_label">Donation for Ohm Wallet</string>
     <string name="wallet_low_storage_dialog_title">Internal device storage space low!</string>
-    <string name="wallet_low_storage_dialog_msg">Bitcoin Wallet uses internal storage for remembering transactions and blocks. If it runs out of space, it will stop working and your Bitcoins will be at risk!\n\nDo you want to open the Application Manager to uninstall unneeded apps?</string>
+    <string name="wallet_low_storage_dialog_msg">Ohm Wallet uses internal storage for remembering transactions and blocks. If it runs out of space, it will stop working and your Bitcoins will be at risk!\n\nDo you want to open the Application Manager to uninstall unneeded apps?</string>
     <string name="wallet_low_storage_dialog_button_apps">Manage apps</string>
     <string name="wallet_timeskew_dialog_title">Check date &amp; time settings</string>
     <string name="wallet_timeskew_dialog_msg">Your device time is off by %d minutes. You probably cannot send or receive Bitcoins due to this problem.\n\nYou should check and if necessary correct your date, time and timezone settings.</string>
@@ -55,7 +55,7 @@
     <string name="wallet_version_dialog_button_market">Google Play</string>
     <string name="wallet_version_dialog_button_binary">Download</string>
     <string name="wallet_old_sdk_dialog_title">Android version is out of date</string>
-    <string name="wallet_old_sdk_dialog_message">Chances are that one of the next releases of Bitcoin Wallet will not support your device any more. In some cases, it can get difficult to spend coins on this device.\n\nUnless you know what you are doing, it is recommended to move out your coins soon.</string>
+    <string name="wallet_old_sdk_dialog_message">Chances are that one of the next releases of Ohm Wallet will not support your device any more. In some cases, it can get difficult to spend coins on this device.\n\nUnless you know what you are doing, it is recommended to move out your coins soon.</string>
     <string name="send_coins_activity_title">Send Bitcoins</string>
     <string name="send_coins_fragment_request_payment_request_progress">Fetching signature from %s…</string>
     <string name="send_coins_fragment_request_payment_request_failed_title">Fetching signature failed</string>
@@ -64,7 +64,7 @@
     <string name="send_coins_fragment_payee_verified_by_unknown">unknown</string>
     <string name="send_coins_fragment_receiving_address_label">Pay to</string>
     <string name="send_coins_fragment_receiving_address_hint">type address or name</string>
-    <string name="send_coins_fragment_receiving_address_error">Invalid Bitcoin address!</string>
+    <string name="send_coins_fragment_receiving_address_error">Invalid Ohm address!</string>
     <string name="send_coins_fragment_receiving_address_own">You\'re about to send to yourself!</string>
     <string name="send_coins_fragment_receiving_address_complex">complex\naddress</string>
     <string name="send_coins_fragment_pending">(%s waiting for confirmation)</string>
@@ -126,14 +126,14 @@
     <string name="maintenance_dialog_state_decrypting">Decrypting…</string>
     <string name="maintenance_dialog_state_done">Done.</string>
     <string name="maintenance_dialog_button_move">Move</string>
-    <string name="request_coins_activity_title">Request Bitcoins</string>
+    <string name="request_coins_activity_title">Request Ohm</string>
     <string name="request_coins_fragment_amount_label">Requested amount (optional)</string>
     <string name="request_coins_fragment_accept_bluetooth_payment">Accept payment via Bluetooth for more reliable processing</string>
     <string name="request_coins_fragment_initiate_request_qr">Have this code scanned by the sender.</string>
     <string name="request_coins_fragment_initiate_request_nfc">Or tap an NFC enabled device.</string>
-    <string name="request_coins_clipboard_msg">Bitcoin request copied to clipboard</string>
-    <string name="request_coins_share_dialog_title">Share request for Bitcoins…</string>
-    <string name="request_coins_no_local_app_msg">No other Bitcoin app found</string>
+    <string name="request_coins_clipboard_msg">Ohm request copied to clipboard</string>
+    <string name="request_coins_share_dialog_title">Share request for Ohm…</string>
+    <string name="request_coins_no_local_app_msg">No other Ohm app found</string>
     <string name="request_coins_options_local_app_title">Request from local app</string>
     <string name="address_book_activity_title">Address book</string>
     <string name="address_book_list_receiving_title">Your addresses</string>
@@ -166,7 +166,7 @@
     <string name="transaction_row_message_received_direct">This payment has been received directly. There is a risk it might never become spendable.</string>
     <string name="transaction_row_message_received_unconfirmed_delayed">The confirmation of this payment is delayed, likely due to an overload of the Bitcoin network.</string>
     <string name="transaction_row_message_received_unconfirmed_unlocked">This payment should become spendable in a few minutes.</string>
-    <string name="transaction_row_message_received_unconfirmed_chain_forking">Due to maintenance on the Bitcoin network, this transaction should not be trusted until it is fully confirmed.</string>
+    <string name="transaction_row_message_received_unconfirmed_chain_forking">Due to maintenance on the Ohm network, this transaction should not be trusted until it is fully confirmed.</string>
     <string name="transaction_row_message_received_in_conflict">This payment has an increased risk of being reversed by the sender! If you can, wait for confirmation.</string>
     <string name="transaction_row_message_received_dead">This payment has been reversed by the sender.</string>
     <string name="transaction_row_message_received_dust">This small amount can probably never be spent economically.</string>
